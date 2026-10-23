@@ -7,7 +7,9 @@ authors = [
     { name = "Yurii Antonchyk", email = "xsat.php@gmail.com" }
 ]
 requires-python = ">=3.15"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.161.1",
+]
 
 [project.scripts]
 user-api = "user_api:main"
